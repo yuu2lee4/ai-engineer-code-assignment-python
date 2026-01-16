@@ -1,0 +1,84 @@
+{
+  "services": [
+    {
+      "id": "messaging_workshop",
+      "name": "Messaging & Positioning Workshop",
+      "description": "Facilitated sessions with sales, product, and leadership to clarify the client's value proposition and craft differentiated messaging pillars.",
+      "deliverables": [
+        "Competitive messaging teardown",
+        "Positioning statement + proof points",
+        "Team-ready talk tracks and objection handling doc"
+      ],
+      "sample_outcomes": [
+        "Unified value story across sales and marketing collateral",
+        "Clear buyer-specific pain mapping"
+      ],
+      "timeline_weeks": 2,
+      "starting_price_usd": 12000
+    },
+    {
+      "id": "lifecycle_email_automation",
+      "name": "Lifecycle Email Automation",
+      "description": "Design conversion-focused nurture sequences, build lifecycle triggers, and deploy CRM-integrated automations that re-engage stalled leads.",
+      "deliverables": [
+        "Journey mapping workshop",
+        "Copy + design kit for each lifecycle stage",
+        "Marketing automation platform build-out"
+      ],
+      "sample_outcomes": [
+        "Higher MQL-to-SQL conversion rate",
+        "Automated reactivation of dormant accounts"
+      ],
+      "timeline_weeks": 4,
+      "starting_price_usd": 18000
+    },
+    {
+      "id": "analytics_attribution_audit",
+      "name": "Analytics & Attribution Audit",
+      "description": "Instrument first-party tracking, reconcile marketing source data, and surface actionable KPI dashboards for leadership.",
+      "deliverables": [
+        "Tagging/UTM implementation plan",
+        "Source-of-truth conversion dashboard",
+        "Attribution gap assessment with remediation steps"
+      ],
+      "sample_outcomes": [
+        "Reliable channel ROI reporting",
+        "Consensus on KPI definitions across teams"
+      ],
+      "timeline_weeks": 3,
+      "starting_price_usd": 15000
+    },
+    {
+      "id": "workflow_automation",
+      "name": "Workflow Automation Sprint",
+      "description": "Map manual intake/fulfillment steps, prototype automations, and harden integrations that remove redundant human effort.",
+      "deliverables": [
+        "Workflow audit + RACI",
+        "Zapier/Make or internal tooling automations",
+        "Enablement and maintenance playbook"
+      ],
+      "sample_outcomes": [
+        "Hours back to customer success + operations teams",
+        "Higher SLA adherence through automated routing"
+      ],
+      "timeline_weeks": 3,
+      "starting_price_usd": 14000
+    },
+    {
+      "id": "website_refresh",
+      "name": "Website Refresh Sprint",
+      "description": "Redesign the high-impact sections of the marketing site with modern UX, faster performance, and clearer conversion paths.",
+      "deliverables": [
+        "Conversion research + heatmap review",
+        "Component-based design system updates",
+        "Build + QA + analytics validation"
+      ],
+      "sample_outcomes": [
+        "Improved page speed and SEO health",
+        "More demo requests from mobile visitors"
+      ],
+      "timeline_weeks": 5,
+      "starting_price_usd": 28000
+    }
+  ]
+}

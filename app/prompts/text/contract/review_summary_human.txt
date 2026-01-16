@@ -1,0 +1,22 @@
+Context:
+- Normalized intake data (JSON):
+```
+{{normalized_fields}}
+```
+- Address validation result (JSON):
+```
+{{address_validation}}
+```
+
+Write a markdown summary using this template:
+Summary:
+- <bullet summarizing key engagement facts (account, contact, deal notes)>
+- <bullet describing confirmed address lines>
+
+Address Quality:
+- <"Valid" if the validator says it is valid, otherwise list each issue/explanation as separate bullets>
+
+Clarifications Needed:
+- <List concrete questions for any empty or ambiguous fields. Use "None" if everything is clear>
+
+Keep bullets short (max 20 words). Mention missing fields explicitly ("City missing", etc.).

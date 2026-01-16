@@ -1,0 +1,26 @@
+Context:
+- Current payload:
+```
+{current_payload}
+```
+- Missing sections: {missing_sections}
+- Latest user message:
+```
+{user_message}
+```
+
+Extract ONLY the fields explicitly mentioned in the latest user message. You can update a single field per response. Handle common typos ("acccount", "cntact", "adress") and synonyms ("company", "POC", "notes").
+
+Return ONLY JSON with this schema (braces escaped intentionally):
+{{
+  "account_name": str,
+  "primary_contact": str,
+  "deal_notes": str,
+  "address": str
+}}
+
+Rules:
+- Copy strings exactly as provided (trim leading/trailing whitespace).
+- When the user gives an address, put the full string in `address.line1` and leave the other address fields "".
+- Leave any field as "" when it is not mentioned in this turn.
+- Never invent information.

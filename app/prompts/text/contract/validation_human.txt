@@ -1,0 +1,18 @@
+You will be given a raw salesperson payload:
+```
+{{input_payload}}
+```
+
+Return JSON with the following shape:
+{
+  "normalized_fields": {
+    "account_name": str,
+    "primary_contact": str,
+    "address": str,
+    "deal_notes": str
+  },
+  "needs_clarification": bool,
+  "clarification_items": [str]
+}
+
+Only set `needs_clarification` to true when critical pieces are missing or contradictory.

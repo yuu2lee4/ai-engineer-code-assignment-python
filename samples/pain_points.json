@@ -1,0 +1,69 @@
+{
+  "pain_points": [
+    {
+      "id": "unclear_positioning",
+      "label": "Value proposition feels generic",
+      "description": "Stakeholders struggle to articulate how they are different, leading to inconsistent messaging across decks, landing pages, and SDR outreach.",
+      "impact": "Deals stall in discovery because prospects cannot map the offer to their priorities.",
+      "sample_signals": [
+        "\"Every rep describes the platform differently.\"",
+        "\"Prospects keep asking how we're distinct from Competitor X.\""
+      ],
+      "recommended_services": [
+        "messaging_workshop"
+      ]
+    },
+    {
+      "id": "lead_churn",
+      "label": "Lead generation drop-off",
+      "description": "MQL volume is steady, but nurture programs do not move buyers to the sales conversation, and dormant leads rarely re-engage.",
+      "impact": "Marketing spend increases but pipeline coverage shrinks, forcing higher CAC.",
+      "sample_signals": [
+        "\"Automation rules are still manual exports + blasts.\"",
+        "\"Our call-to-actions are being ignored after the first touch.\""
+      ],
+      "recommended_services": [
+        "lifecycle_email_automation"
+      ]
+    },
+    {
+      "id": "no_kpi_visibility",
+      "label": "Limited analytics & attribution",
+      "description": "Leadership lacks trusted self-serve dashboards, and every board update requires ad hoc spreadsheet wrangling.",
+      "impact": "Teams cannot prove which initiatives work, so budgets freeze and experimentation slows.",
+      "sample_signals": [
+        "\"Finance and marketing show different numbers for the same campaign.\"",
+        "\"We have GA4 tags everywhere but no clean funnel report.\""
+      ],
+      "recommended_services": [
+        "analytics_attribution_audit"
+      ]
+    },
+    {
+      "id": "manual_process_overload",
+      "label": "Manual processes slow fulfillment",
+      "description": "Hand-offs across CS, operations, and finance rely on spreadsheets and email, creating bottlenecks and SLA risk.",
+      "impact": "Customer onboarding drags on, and teams cannot scale without headcount.",
+      "sample_signals": [
+        "\"Rep hand-off notes live in their personal notebooks.\"",
+        "\"We triple-check each invoice because the numbers are keyed manually.\""
+      ],
+      "recommended_services": [
+        "workflow_automation"
+      ]
+    },
+    {
+      "id": "outdated_web_experience",
+      "label": "Website underperforms",
+      "description": "The marketing site feels dated, loads slowly, and fails to convert mobile traffic, hurting first impressions.",
+      "impact": "Prospects bounce before sales engagement, depressing inbound pipeline quality.",
+      "sample_signals": [
+        "\"Bounce rate on pricing is north of 80%.\"",
+        "\"Half our catalog images look fuzzy on retina displays.\""
+      ],
+      "recommended_services": [
+        "website_refresh"
+      ]
+    }
+  ]
+}
