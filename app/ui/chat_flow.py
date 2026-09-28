@@ -42,9 +42,11 @@ def _get_ingest_chain():
             ("system", system_prompt),
             ("human", human_prompt),
         ])
-        model_name = os.getenv("CHAT_INGEST_MODEL", "gpt-4o-mini")
+        model_name = os.getenv("MODEL_NAME", "gpt-4o-mini")
+        model_api_key = os.getenv("MODEL_API_KEY")
+        model_base_url = os.getenv("MODEL_BASE_URL")
         temperature = float(os.getenv("CHAT_INGEST_TEMPERATURE", "0"))
-        llm = ChatOpenAI(model=model_name, temperature=temperature)
+        llm = ChatOpenAI(model=model_name, temperature=temperature, api_key=model_api_key, base_url=model_base_url)
         _INGEST_PROMPT = prompt
         _INGEST_CHAIN = prompt | llm | StrOutputParser()
     return _INGEST_CHAIN
@@ -160,6 +162,9 @@ class ChatReviewSession:
             for key, value in address_updates.items():
                 if isinstance(value, str) and value.strip():
                     address[key] = value.strip()
+        elif isinstance(address_updates, str) and address_updates.strip():
+            address = self._ensure_address()
+            address["line1"] = address_updates.strip()
 
     def _maybe_ingest_json(self, text: str) -> bool:
         try:

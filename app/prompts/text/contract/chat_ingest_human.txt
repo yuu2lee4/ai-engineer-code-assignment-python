@@ -16,7 +16,7 @@ Return ONLY JSON with this schema (braces escaped intentionally):
   "account_name": str,
   "primary_contact": str,
   "deal_notes": str,
-  "address": str
+  "address": dict
 }}
 
 Rules:
